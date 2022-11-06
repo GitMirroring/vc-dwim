@@ -40,7 +40,7 @@ test -z "$B" || framework_failure_
 echo >> a/a || framework_failure_
 
 ## git diff should report a dirty submodule
-git diff | grep -q '^\+Subproject commit [0-9a-f]*-dirty$' \
+git diff | grep '^\+Subproject commit [0-9a-f]*-dirty$' > /dev/null \
     || framework_failure_
 
 ## git diff with ignore flag should not report anything
