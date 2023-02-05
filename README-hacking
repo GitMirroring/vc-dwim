@@ -21,7 +21,7 @@ few prerequisites, later, a plain 'git pull && make' should be sufficient.
 
 You can get a copy of the source repository like this:
 
-        $ git clone git://git.sv.gnu.org/vc-dwim
+        $ git clone https://git.savannah.gnu.org/git/vc-dwim
         $ cd vc-dwim
 
 As an optional step, if you already have a copy of the gnulib git
