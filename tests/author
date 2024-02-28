@@ -27,7 +27,7 @@ fail=0
 
 name_and_addr='joe blow <j@blow.org>'
 vc-dwim --commit --author="$name_and_addr" > /dev/null
-git log --max-count=1 > out
+git log --format=medium --max-count=1 > out
 grep "^Author: $name_and_addr" out > /dev/null
 
 ##################################################
@@ -45,7 +45,7 @@ mv k ChangeLog
 echo foo >> x
 
 vc-dwim --commit > /dev/null
-git log --max-count=1 > out
+git log --format=medium --max-count=1 > out
 grep '^Author: X Y <z@example\.org>' out > /dev/null
 
 ##################################################
