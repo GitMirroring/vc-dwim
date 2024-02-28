@@ -1,4 +1,4 @@
-# Copyright (C) 2006-2023 Free Software Foundation, Inc.
+# Copyright (C) 2006-2024 Free Software Foundation, Inc.
 # This file may be modified and/or distributed without restriction.
 
 EXTRA_DIST = $(TESTS) \
