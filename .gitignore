@@ -25,6 +25,7 @@
 /tests/*.trs
 /tests/Makefile
 /tests/Makefile.in
+/tests/init.sh
 /vc-chlog
 /vc-dwim
 /vc-dwim-[.1-9]*.tar.xz
