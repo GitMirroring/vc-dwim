@@ -147,6 +147,12 @@ the output of
 into the .vc-chlogrc file at the root.
 
 ========================================================================
+See the file INSTALL for compilation and installation instructions.
+
+GNU vc-dwim is provided "as is" with no warranty.  The exact terms
+under which you may use and (re)distribute this program are detailed
+in the GNU General Public License, in the file COPYING.
+
 Copyright (C) 2008-2024 Free Software Foundation, Inc.
 
 Permission is granted to copy, distribute and/or modify this document
