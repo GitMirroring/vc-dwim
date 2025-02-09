@@ -21,6 +21,9 @@ manual_title = vc-dwim
 # it can take a while for the faster mirror links to become usable.
 url_dir_list = https://ftp.gnu.org/gnu/$(PACKAGE)
 
+# Write base64-encoded (not hex) checksums into the announcement.
+announce_gen_args = --cksum-checksums
+
 # Tests not to run as part of "make distcheck".
 # Exclude changelog-check here so that there's less churn in ChangeLog
 # files -- otherwise, you'd need to have the upcoming version number
