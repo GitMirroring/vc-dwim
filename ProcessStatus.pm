@@ -238,8 +238,7 @@ Typical values of this variable will be:
 We should probably do this, from perlfunc(1):
 
     or more portably by using the W*() calls of the
-    POSIX extension; see perlport for more informa­
-    tion.
+    POSIX extension; see perlport for more information.
 
 
 =head1	AUTHOR
