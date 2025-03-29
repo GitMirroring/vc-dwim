@@ -44,3 +44,5 @@ old_NEWS_hash = c69bef76c4b0ea8fcea816810c758a74
 update-copyright-env = \
   UPDATE_COPYRIGHT_USE_INTERVALS=1 \
   UPDATE_COPYRIGHT_MAX_LINE_LENGTH=79
+
+codespell_ignore_words_list = ine,mis,Ser
