@@ -26,7 +26,7 @@ mkdir a b || framework_failure_
     && git add b \
     && git commit -m b ) >/dev/null || framework_failure_
 (cd b \
-    && git submodule add ../a \
+    && git -c protocol.file.allow=always submodule add ../a \
     && git commit -m "submodule added") >/dev/null || framework_failure_
 
 ## Sanity check: ensure no diffs, either with git or with vc-dwim
